@@ -36,5 +36,3 @@ class HomePage(BasePage):
 
         signup_button = self.driver.find_element(*HomePageLocators.SIGNUP_BUTTON)
         signup_button.click()
-
-        time.sleep(7)
